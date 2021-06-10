@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;  
+}
+
+/* TÍTULO DE LA APP */
+
+.title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 45px;
+  color: #194350;  
+  letter-spacing: 0px;  
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* FORMULARIOS PARA AGREGAR USUARIO */
+
+#addUser {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.addUser {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+}
+
+.field {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  color: #0f99c7;
+  font-weight: 800;  
+}
+
+.field > label {
+  opacity: 0.9;
+}
+
+.field label {
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.field input {
+  border: 1px solid #afb5b9;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.submitBtn,
+.updateBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #02475e;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  opacity: 0.9;
+}
+
+.updateBtn {
+  display: none;
+}
+
+/* LISTA DE USUARIOS */
+
+.userList {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.userItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.userInfo {
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #493323;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 2px;  
+}
+
+.userInfo > h4 {
+  opacity: 0.9;
+}
+
+.actions {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions button {
+  width: 45%;
+  border: none;
+  padding: 10px;
+  color: #194350;
+  border-radius: 5px;
+}
+
+.update {
+  background-color: #f3bda1;
+  
+}
+
+.delete {
+  background-color: #9dbeb9;
+  
+}
